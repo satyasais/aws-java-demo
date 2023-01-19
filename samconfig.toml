@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sai-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-yg7d51hewxix"
+s3_prefix = "sai-app"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+
